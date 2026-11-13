@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 13757287}
   - component: {fileID: 13757286}
   m_Layer: 5
-  m_Name: collar5
+  m_Name: color5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1079,7 +1079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 144295035}
   m_Layer: 5
-  m_Name: collarbutton
+  m_Name: colorbutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3107,7 +3107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311806332}
   m_Layer: 5
-  m_Name: collar
+  m_Name: color
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6302,7 +6302,7 @@ GameObject:
   - component: {fileID: 592429056}
   - component: {fileID: 592429055}
   m_Layer: 5
-  m_Name: collar4
+  m_Name: color4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10013,7 +10013,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: faa4820c77291994e97ceeab67100961, type: 2}
+  - {fileID: 2100000, guid: 962a859e76b6221459fa5d12fc8cd989, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10587,7 +10587,7 @@ GameObject:
   - component: {fileID: 1132359313}
   - component: {fileID: 1132359312}
   m_Layer: 5
-  m_Name: collar2
+  m_Name: color2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11348,7 +11348,7 @@ GameObject:
   - component: {fileID: 1203014411}
   - component: {fileID: 1203014410}
   m_Layer: 5
-  m_Name: collar3
+  m_Name: color3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12773,7 +12773,7 @@ GameObject:
   - component: {fileID: 1291528017}
   - component: {fileID: 1291528016}
   m_Layer: 5
-  m_Name: collar1
+  m_Name: color1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16380,9 +16380,9 @@ Light:
   m_Type: 0
   m_Color: {r: 0.972549, g: 0.7559269, b: 0.3529412, a: 1}
   m_Intensity: 100000
-  m_Range: 229.5919
+  m_Range: 208.19536
   m_SpotAngle: 82.86693
-  m_InnerSpotAngle: 63.4372
+  m_InnerSpotAngle: 40.433895
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
     m_Type: 0
@@ -16442,7 +16442,7 @@ Transform:
   m_GameObject: {fileID: 1647943050}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7.9, y: 1634.9, z: 0.1}
+  m_LocalPosition: {x: -48.2, y: 1613.6, z: 4.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
