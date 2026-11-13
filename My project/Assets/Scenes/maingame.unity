@@ -1106,8 +1106,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 681, y: -80.956}
-  m_SizeDelta: {x: 143.491, y: 851.056}
+  m_AnchoredPosition: {x: 670, y: 2}
+  m_SizeDelta: {x: 130, y: 643.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &151694373
 GameObject:
@@ -2928,7 +2928,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: faa4820c77291994e97ceeab67100961, type: 2}
+  - {fileID: 2100000, guid: 28c389f7c829de84294e0c9e923279e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4436,7 +4436,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 439889553}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: 844f21eec36d34945ae5b7a83773e455, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &439889553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6130,7 +6142,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 577719718}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: a4a293bb5f7be9d4d9b49fe58cd8566e, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &577719718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6842,7 +6866,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 709217669}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: d8c8a380dc4e5f14094043f3cf794cc2, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &709217669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6962,7 +6998,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 710496215}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: c123482883344cc47926b63cfd91fe25, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &710496215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9811,7 +9859,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: faa4820c77291994e97ceeab67100961, type: 2}
+  - {fileID: 2100000, guid: 28c389f7c829de84294e0c9e923279e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10013,7 +10061,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 962a859e76b6221459fa5d12fc8cd989, type: 2}
+  - {fileID: 2100000, guid: 28c389f7c829de84294e0c9e923279e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10247,7 +10295,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1098672631}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: c089d9bae1a154d48ac9604221fee057, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1098672631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10299,7 +10359,7 @@ GameObject:
   - component: {fileID: 1101067868}
   - component: {fileID: 1101067867}
   m_Layer: 5
-  m_Name: 4-4
+  m_Name: button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10313,7 +10373,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101067865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000061333}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10321,7 +10381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40.455, y: -33.316998}
+  m_AnchoredPosition: {x: -37.2, y: -124.7}
   m_SizeDelta: {x: 204.62, y: 126.07}
   m_Pivot: {x: 0.49999997, y: 0.5000001}
 --- !u!114 &1101067867
@@ -10601,7 +10661,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132359310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.001}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00019902273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10610,9 +10670,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.982, y: 37.825}
+  m_AnchoredPosition: {x: -0.9819946, y: 7.5688934}
   m_SizeDelta: {x: 566.01, y: 750.06}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0.45965803}
 --- !u!114 &1132359312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11006,7 +11066,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1163524938}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: 02b5ea8b91740b343acc913bfed81b0f, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1163524938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13143,7 +13215,7 @@ GameObject:
   - component: {fileID: 1322119623}
   - component: {fileID: 1322119622}
   m_Layer: 5
-  m_Name: 1-1
+  m_Name: button1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13157,7 +13229,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1322119620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00010035}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13165,7 +13237,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -42.679, y: 347.35675}
+  m_AnchoredPosition: {x: -38.9, y: 251.6}
   m_SizeDelta: {x: 209.07, y: 131.001}
   m_Pivot: {x: 0.50000036, y: 0.5}
 --- !u!114 &1322119622
@@ -14318,7 +14390,7 @@ GameObject:
   - component: {fileID: 1425303671}
   - component: {fileID: 1425303670}
   m_Layer: 5
-  m_Name: 3-3
+  m_Name: button3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14332,7 +14404,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425303668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00033122}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14340,7 +14412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -39.344, y: 92.753}
+  m_AnchoredPosition: {x: -36.1, y: -1.2}
   m_SizeDelta: {x: 202.4, y: 126.07}
   m_Pivot: {x: 0.49999997, y: 0.5000001}
 --- !u!114 &1425303670
@@ -15360,6 +15432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1512205256}
   - component: {fileID: 1512205257}
+  - component: {fileID: 1512205258}
   m_Layer: 5
   m_Name: ShapeSetting
   m_TagString: Untagged
@@ -15399,6 +15472,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::shapesetting
   shape:
+  - {fileID: 1080513016}
+  - {fileID: 1646493575}
+  - {fileID: 1061132399}
+  - {fileID: 298091024}
+--- !u!114 &1512205258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512205255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bbface704945043884182d70e8f54f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatternSettings
+  shapes:
   - {fileID: 1080513016}
   - {fileID: 1646493575}
   - {fileID: 1061132399}
@@ -16289,7 +16379,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: faa4820c77291994e97ceeab67100961, type: 2}
+  - {fileID: 2100000, guid: 28c389f7c829de84294e0c9e923279e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16666,7 +16756,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1659440773}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: 7e6ddf7aa7c0b424bbc00496309a2b59, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1659440773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17585,7 +17687,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1723288744}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: 5ee5905371df44e46ba2be11469fccf1, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1723288744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17846,7 +17960,7 @@ GameObject:
   - component: {fileID: 1746320771}
   - component: {fileID: 1746320770}
   m_Layer: 5
-  m_Name: 2-2
+  m_Name: button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17860,7 +17974,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746320768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000089134}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17868,7 +17982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40.455, y: 218.824}
+  m_AnchoredPosition: {x: -37.3, y: 123.1}
   m_SizeDelta: {x: 204.62, y: 126.071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746320770
@@ -18453,8 +18567,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 216699695}
   m_HandleRect: {fileID: 216699694}
   m_Direction: 2
-  m_Value: 0.9999993
-  m_Size: 0.7076149
+  m_Value: 0.9999995
+  m_Size: 0.70761496
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -18630,7 +18744,7 @@ GameObject:
   - component: {fileID: 1897594093}
   - component: {fileID: 1897594092}
   m_Layer: 5
-  m_Name: 5-5
+  m_Name: button5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18644,7 +18758,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897594090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000028815}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -18652,7 +18766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40.455, y: -159.39}
+  m_AnchoredPosition: {x: -37.3, y: -249.6}
   m_SizeDelta: {x: 204.62, y: 126.07}
   m_Pivot: {x: 0.49999997, y: 0.5}
 --- !u!114 &1897594092
@@ -19465,7 +19579,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1943362645}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPattern
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2800000, guid: 4066f8f9280a75e44b17f565d7be5c97, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Texture, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1943362645
 MonoBehaviour:
   m_ObjectHideFlags: 0
