@@ -1,10 +1,21 @@
 
 using UnityEngine;
-
 public class PatternSettings : MonoBehaviour
 {
-    [Header("対象のShapeオブジェクト群 (square, Circle, diamond, Rectangle)")]
+    [Header("対象のShapeオブジェクト")]
     [SerializeField] private GameObject[] shapes;
+
+    [Header("パーツ表示位置")]
+    [SerializeField]private Vector3 partPosition =new Vector3(0, 0.52f, 0);
+
+    [Header("パーツ回転")]
+    [SerializeField]private Vector3 partRotation = new Vector3(-90, 0, 0);
+
+    [Header("パーツ大きさ")]
+    [SerializeField] private Vector3 partScale = new Vector3(0.25f, 0.25f, 0.25f); 
+
+    //private Sprite currentSprite;
+    //private Vector2 currentBaseSize;
 
     private Texture selectedTexture = null;
 
@@ -18,16 +29,12 @@ public class PatternSettings : MonoBehaviour
 
     public void SetPattern(Texture newTexture)
     {
-        // ★クリック時にログを出す
         if (newTexture == null)
         {
-            Debug.LogWarning("[PatternSettings] ボタンが押されましたが、渡されたテクスチャが null です！引数の設定を確認してください。");
+            Debug.LogWarning("模様がありません");
+            return;
         }
-        else
-        {
-            Debug.Log($"[PatternSettings] 模様を選択しました: {newTexture.name}");
-        }
-
+       
         selectedTexture = newTexture;
         ApplyPatternToAllShapes();
     }
@@ -42,7 +49,7 @@ public class PatternSettings : MonoBehaviour
     {
         if (shapes == null || shapes.Length == 0)
         {
-            Debug.LogError("[PatternSettings] shapes 配列が空です！InspectorでShapeオブジェクトを設定してください。");
+            Debug.LogError("Shapesがありません");
             return;
         }
 
@@ -63,6 +70,43 @@ public class PatternSettings : MonoBehaviour
             }
         }
     }
+    public void SetPart(Sprite partSprite)
+    {
+        if(partSprite==null)
+        {
+            Debug.LogWarning("パーツがありませんl");
+            return;
+        } 
+        GameObject activeShape = null;
+        for(int i=0;i<shapes.Length;i++)
+        {
+            if (shapes[i] != null && shapes[i].activeInHierarchy)
+            {
+                activeShape = shapes[i];
+                break;  
+            }
+        }
+       if(activeShape==null)
+       {
+            Debug.LogWarning("選択されてる型がありません");
+            return;
+       }
+        Transform partsRoot = activeShape.transform.Find("PartsRoot");
+        if(partsRoot ==null)
+        {
+            Debug.LogWarning("PartsRootが見つかりません");
+            return; 
+        }
+        GameObject newPart = new GameObject(partSprite.name);
+        newPart.transform.SetParent(partsRoot, false);
+        newPart.transform.localPosition = partPosition;
+        newPart.transform.localRotation = Quaternion.Euler(partRotation);
+        newPart.transform.localScale = partScale;
 
+        SpriteRenderer spriteRenderer = newPart.AddComponent<SpriteRenderer>();
+        spriteRenderer.sprite = partSprite;
+        Debug.Log("パーツを追加しました：" + partSprite.name);
+
+    }
     public Texture SelectedTexture => selectedTexture;
 }

@@ -41,7 +41,7 @@ public class shapesetting : MonoBehaviour
         }
     }
 
-    // _BaseColor を確実に設定するヘルパーメソッド
+    // _baseColor を確実に設定するヘルパーメソッド
     private void ApplyColorToShape(GameObject obj)
     {
         if (obj != null && obj.TryGetComponent<Renderer>(out var renderer))
