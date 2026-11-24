@@ -5,6 +5,9 @@ public class PatternSettings : MonoBehaviour
     [Header("対象のShapeオブジェクト")]
     [SerializeField] private GameObject[] shapes;
 
+    [Header("パーツを配置する場所")]
+    [SerializeField] private Transform partsRoot;
+
     [Header("パーツ表示位置")]
     [SerializeField]private Vector3 partPosition =new Vector3(0, 0.52f, 0);
 
@@ -49,7 +52,7 @@ public class PatternSettings : MonoBehaviour
     {
         if (shapes == null || shapes.Length == 0)
         {
-            Debug.LogError("Shapesがありません");
+            Debug.LogError("Shapesがありません。対象オブジェクト：" + gameObject.name);
             return;
         }
 
@@ -76,22 +79,13 @@ public class PatternSettings : MonoBehaviour
         {
             Debug.LogWarning("パーツがありませんl");
             return;
-        } 
-        GameObject activeShape = null;
-        for(int i=0;i<shapes.Length;i++)
-        {
-            if (shapes[i] != null && shapes[i].activeInHierarchy)
-            {
-                activeShape = shapes[i];
-                break;  
-            }
         }
-       if(activeShape==null)
-       {
-            Debug.LogWarning("選択されてる型がありません");
+        if (partsRoot == null)
+        {
+            Debug.LogWarning("PartsRootが設定されてません");
             return;
-       }
-        Transform partsRoot = activeShape.transform.Find("PartsRoot");
+        }
+       
         if(partsRoot ==null)
         {
             Debug.LogWarning("PartsRootが見つかりません");
