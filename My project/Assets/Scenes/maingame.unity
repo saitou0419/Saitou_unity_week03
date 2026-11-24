@@ -4024,6 +4024,7 @@ GameObject:
   - component: {fileID: 419196959}
   - component: {fileID: 419196958}
   - component: {fileID: 419196957}
+  - component: {fileID: 419196960}
   m_Layer: 5
   m_Name: parts2
   m_TagString: Untagged
@@ -4144,6 +4145,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419196955}
   m_CullTransparentMesh: 1
+--- !u!65 &419196960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419196955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &424021465
 GameObject:
   m_ObjectHideFlags: 0
@@ -10042,7 +10064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.9803922, b: 0.9803922, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -11970,9 +11992,9 @@ Transform:
   m_LocalScale: {x: 9.353074, y: 9.353072, z: 9.353072}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1166119662}
   - {fileID: 1923702415}
   - {fileID: 1731102369}
-  - {fileID: 1166119662}
   m_Father: {fileID: 1051550875}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1322119620
@@ -16506,7 +16528,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1767904960}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: ed9b1bee1a1626546955983789736d7b, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1767904960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19621,7 +19655,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136582869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.19248453}
+  m_LocalPosition: {x: 0, y: 0, z: 0.19273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19630,8 +19664,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.9132442, y: -12.460614}
-  m_SizeDelta: {x: 1910.982, y: 1109.559}
+  m_AnchoredPosition: {x: 0.29792, y: 1.1593}
+  m_SizeDelta: {x: 1919.4, y: 1082.3}
   m_Pivot: {x: 0.49999997, y: 0.49999997}
 --- !u!114 &2136582871
 MonoBehaviour:
