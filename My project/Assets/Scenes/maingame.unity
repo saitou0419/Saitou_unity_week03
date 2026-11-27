@@ -228,7 +228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.604}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 327.12302, y: -1}
+  m_AnchoredPosition: {x: 327, y: -29}
   m_SizeDelta: {x: 105.473, y: 155.083}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &17869765
@@ -323,7 +323,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -4}
   m_SizeDelta: {x: -30.75, y: -1.466}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &36365758
@@ -2436,7 +2436,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1451498113}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5548887
+  m_Size: 0.5548884
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3729,8 +3729,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 101140430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.14801502}
-  m_AnchorMax: {x: 1, y: 0.99999917}
+  m_AnchorMin: {x: 0, y: 0.14801443}
+  m_AnchorMax: {x: 1, y: 0.9999977}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3973,7 +3973,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 408350087}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 8594737c5de2d974ca01be3bca52fa40, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &408350087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4162,7 +4174,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4675,8 +4687,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 392499756}
   m_HandleRect: {fileID: 392499755}
   m_Direction: 2
-  m_Value: 0.99999434
-  m_Size: 0.85198414
+  m_Value: 0.9999843
+  m_Size: 0.85198325
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6206,7 +6218,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596753559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6243,7 +6255,7 @@ MonoBehaviour:
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 1.06
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -6260,7 +6272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 596753562}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 85eebd9560c9af340b1480a6e42300d0, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &596753562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6775,7 +6799,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 657782286}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 1a2df4fa672208f44b9d3b196afc967e, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &657782286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7859,7 +7895,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 822976535}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 2397d6cacdbcf7c4e82d43cabd99a2d7, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &822976535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7880,8 +7928,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 2397d6cacdbcf7c4e82d43cabd99a2d7, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8522,7 +8570,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 929012415}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: ec374e7b7b8a2e8439ad7ff89cd19bb3, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &929012415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8766,8 +8826,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.70787054, y: -0, z: -0, w: 0.7063423}
-  m_LocalPosition: {x: 6.5, y: 1533.9, z: 9}
+  m_LocalRotation: {x: 0.063707076, y: -0.6279938, z: 0.051695116, w: 0.7738817}
+  m_LocalPosition: {x: 136.24915, y: 1421.4795, z: -18.5911}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10503,7 +10563,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1216879540}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: b4fe7120fd702e7449a62ddc5de0330b, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1216879540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12605,7 +12677,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1357345795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: a8ce50a5be0e29442826f9e9a89c9f7f, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1357345795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12619,7 +12703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.22579211, b: 0.22579211, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13739,7 +13823,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464758339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13750,7 +13834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.09, y: 2.6}
+  m_AnchoredPosition: {x: 0, y: -5}
   m_SizeDelta: {x: 482.4, y: 589.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1464758341
@@ -14015,8 +14099,8 @@ MonoBehaviour:
   - {fileID: 298091024}
   partsRoot: {fileID: 116471949}
   partPosition: {x: -30, y: 0, z: 20}
-  partRotation: {x: -90, y: 0, z: 0}
-  partScale: {x: 10, y: 10, z: 10}
+  partRotation: {x: -90, y: 0, z: 180}
+  partScale: {x: 15, y: 15, z: 15}
 --- !u!1 &1514900453
 GameObject:
   m_ObjectHideFlags: 0
@@ -14518,7 +14602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1579954821}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 1c6c985e07f0a2c4ba33cbce7d477b87, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1579954821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14711,8 +14807,8 @@ Transform:
   m_GameObject: {fileID: 1646493575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.5, y: -2, z: 20.2}
-  m_LocalScale: {x: 72.496635, y: 0.94, z: 70.95595}
+  m_LocalPosition: {x: -29.1, y: -2, z: 20.2}
+  m_LocalScale: {x: 72.32, y: 0.94, z: 70.95595}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 524833071}
@@ -14814,7 +14910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1647943051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15640,8 +15736,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703970491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.26, y: 0.83, z: 1.22}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2041396795}
@@ -15694,7 +15790,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1703970494}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 47544052a13d4984e97311664ee4c0c3, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1703970494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15715,8 +15823,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 47544052a13d4984e97311664ee4c0c3, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -16067,7 +16175,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1730012652}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 6a91f33c4c605104eb99c43ea3012e32, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1730012652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18057,7 +18177,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1945813138}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 886e6d3cfc3142a4887d55241541909f, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1945813138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18769,7 +18901,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2013389998}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: fb81f0b4d49143f42b10636991b68b4d, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2013389998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18971,7 +19115,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2041396794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19000,7 +19144,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: -0.000091552734}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2041396796
@@ -19590,7 +19734,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2121940562}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1512205258}
+        m_TargetAssemblyTypeName: PatternSettings, Assembly-CSharp
+        m_MethodName: SetPart
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 21300000, guid: 1d05249b3578e0d4a982093bb8caacc6, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2121940562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19655,7 +19811,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136582869}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.19273}
+  m_LocalPosition: {x: 0, y: 0, z: 0.193}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19664,8 +19820,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.29792, y: 1.1593}
-  m_SizeDelta: {x: 1919.4, y: 1082.3}
+  m_AnchoredPosition: {x: -8.51, y: 1.159}
+  m_SizeDelta: {x: 1937.016, y: 1082.3}
   m_Pivot: {x: 0.49999997, y: 0.49999997}
 --- !u!114 &2136582871
 MonoBehaviour:

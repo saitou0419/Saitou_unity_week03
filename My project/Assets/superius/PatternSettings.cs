@@ -12,7 +12,7 @@ public class PatternSettings : MonoBehaviour
     [SerializeField] private Vector3 partPosition = new Vector3(0, 0.52f, 0);
 
     [Header("パーツ回転")]
-    [SerializeField] private Vector3 partRotation = new Vector3(-90, 0, 0);
+    [SerializeField] private Vector3 partRotation = new Vector3(0, 0, 0);
 
     [Header("パーツ大きさ")]
     [SerializeField] private Vector3 partScale = new Vector3(0.25f, 0.25f, 0.25f);

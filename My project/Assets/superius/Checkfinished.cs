@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-public class Checkfinished : MonoBehaviour
+public class ChecKfinished : MonoBehaviour
 {
     [SerializeField] private GameObject finishedGame;
 
